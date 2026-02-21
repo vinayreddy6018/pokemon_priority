@@ -2,7 +2,7 @@
 
 A full-stack Pokémon information website built with **Nuxt 3** (TypeScript + Vue 3) using the [PokéAPI](https://pokeapi.co/).
 
-This is a full-stack Pokédex application built with Nuxt 3, Vue 3, and TypeScript. It features a searchable list of Pokémon and detailed profile pages powered by PokéAPI as the data source.
+This is a full-stack Pokémon application built with Nuxt 3, Vue 3, and TypeScript. It features a searchable list of Pokémon and detailed profile pages powered by PokéAPI as the data source.
 
 The application features both mandatory core functionality (list, search, detail view) and additional functionality like shiny sprite toggle, evolution chains, previous/next navigation, and responsive design.
 
