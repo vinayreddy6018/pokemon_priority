@@ -92,23 +92,23 @@ The app runs at `http://localhost:3000` by default.
 - **Progressive loading** — Sprites fade in on load, server routes handle parallelized PokeAPI requests
 ---
 # Implementation Details
-Data Flow
-User accesses homepage
-Frontend requests /api/pokemon
-Server retrieves PokéAPI data
-Server transforms response
-Frontend renders card grid
-User clicks a Pokémon card
-Route navigates to /pokemon/:name
-Frontend requests /api/pokemon/:name
-Server aggregates detailed data
-Detail page renders formatted profile
+- Data Flow
+- User accesses homepage
+- Frontend requests /api/pokemon
+- Server retrieves PokéAPI data
+- Server transforms response
+- Frontend renders card grid
+- User clicks a Pokémon card
+- Route navigates to /pokemon/:name
+- Frontend requests /api/pokemon/:name
+- Server aggregates detailed data
+= Detail page renders formatted profile
 ---
 # Data Normalization
-Abilities are separated into normal and hidden
-Stats are mapped into clean objects
-Evolution chain is flattened for display
-English flavor text is extracted from species entries
+- Abilities are separated into normal and hidden
+- Stats are mapped into clean objects
+- Evolution chain is flattened for display
+- English flavor text is extracted from species entries
 ---
 # Edge Cases Handled
 - Invalid Pokémon name → Returns 404
